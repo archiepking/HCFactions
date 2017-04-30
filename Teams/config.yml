@@ -1,0 +1,35 @@
+factions:
+  roster: 30
+  nameSize: 15
+  factionCreated: '&r%faction% &ewas created by &r%name%'
+  disbanded: '&eYour faction was disbanded by &r%name%'
+  rename: '&eYour faction is now called &r%name%'
+  pastFaction: '&7[&e%fname% %time% minutes&7]'
+  pastFactionMessage: '&r%name%''s &epast factions: %pf%'
+  maxPastFacs: 5
+  help:
+    - '&eFaction'
+    - '&eTeam create &r -create a team.'
+chat:
+  format: '&7[&r%team%&7] &e%username% &r%message%'
+  formatNoTeam: '&7[&r-&7] &e%username% &r%message%'
+errors:
+  unrecognised: '&eUnrecognized command &r%command%'
+  factionExists: '&eThat faction already exists.'
+  inFaction: '&eYou are already in a faction.'
+  factionNameLength: '&eYour faction name must be between 3 and 15 characters.'
+  factionAlphaNumeric: '&eFaction names must be alphanumeric.'
+  argsLength: '&eIncorrect parameters: &r%command% &erequires &r%required% &eparameters.'
+  noFaction: '&eYou are not in a faction.'
+  cannotLeave: '&eYou cannot leave as you are leader, you must disband or transfer leadership.'
+  cannotDisband: '&eYou are not the faction leader.'
+  playerNotFound: '&cPlayer not found.'
+  noPermssion: '&eYou do not have the permission &r%permission%'
+  notLeader: '&eYou must be the leader of your faction to do this.'
+  playerIsMember: '&eYou must be a &rcaptain &eto claim for your faction.'
+  mustBeNumeric: '&eThe radius must be numeric.'
+  alreadyClaimed: '&eYou have already claimed for your faction.'
+player:
+  elo: '&eYour elo is %elo%'
+  otherElo: '&r%name%''s &eelo is &r%elo%'
+  eloPosNegColour: true

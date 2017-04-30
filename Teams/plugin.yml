@@ -1,0 +1,7 @@
+name: Factions
+version: 0.0.1
+main: com.kingarchie.Factions
+commands:
+  faction:
+    aliases: [f, team, teams, t, factions, facs]
+  elo:
